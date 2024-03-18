@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Madimi+One&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --myFont1: "Madimi One", sans-serif;
+}
+.navbar{
+    background: repeating-linear-gradient(
+  45deg,
+  #60bc7c,
+  #60bc7c 10px,
+  #2e862e 10px,
+  #2e862e 20px
+);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 50px;    
+}
+
+.navbar a{
+    text-decoration: none;
+    color:white;
+    width: 250px;
+    font-family: var(--myFont1);
+    font-size: 20px;
+}
+.navbar img{
+    width: 50px;
+}
+.general{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.ppal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:20px;
+    width: 100vw;
+    height: 150vh;
+}
+.card{
+    background-color: black;
+    color: white;
+    border:3px solid white;
+     border-radius: 15px;
+    width: 300px;
+    height: 800px;
+    text-align: center;
+}
+.card img{
+    width: 250px;
+    padding:  15px 0px 30px 0px;
+}
+.card p{
+    padding:  0px 5px 0px 5px;
+    font-size:20px ;    
+}
+#newMovies{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:20px;
+    width: 100vw;    
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:20px;
+}
+
+.form input{
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:20px;
+}
+button{
+    background-color: blue;
+    border:1px solid blue;
+    border-radius: 20px;
+    color: white;
+    width: 300px;
+    height: 40px;
+    cursor: pointer;
+}
