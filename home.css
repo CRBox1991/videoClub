@@ -169,3 +169,27 @@ html { scroll-behavior: smooth; }
 		right: 50px;
 	}
 }
+
+@media all and (max-width: 1000px){
+
+    .nav{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap:20px;
+    }
+    .general{
+        
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap:20px;       
+    }
+    .ppal{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap:20px;
+    }
+   
+}
